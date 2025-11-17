@@ -13,7 +13,7 @@ export function setupSwagger(app: Express) {
       },
       servers: [
         {
-          url: "http://localhost:3000",
+          url: "https://news-api-fjm7.onrender.com"
           description: "Local server",
         },
       ],
